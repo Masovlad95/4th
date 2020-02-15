@@ -1,0 +1,215 @@
+@media (max-width: 1250px) {
+  header.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 20px;
+  }
+  object.logo {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  ul.header__menu {
+    display: flex;
+    align-items: center;
+    line-height: 0px;
+    list-style-type: none;
+    position: relative;
+  }
+  .products,
+  .colums,
+  .reg__container,
+  footer.info,
+  .description,
+  .form__box {
+    margin: 0 20px;
+  }
+}
+@media (max-width: 1141px) {
+  h1.head__text {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #fff;
+    font-family: "Yeseva One";
+    padding: 130px 20px 55px;
+    font-weight: 400;
+    font-size: 90px;
+  }
+  .dish {
+    display: none;
+  }
+  h2.categories {
+    padding-top: 30px;
+  }
+  .description {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 1119px) {
+  img.img__2 {
+    display: none;
+  }
+  div.form__box {
+    width: 100%;
+    margin: 0 auto;
+  }
+  h3.comment {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 50px;
+  }
+  .form__reg {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+  }
+}
+@media (max-width: 1070px) {
+  .socials {
+    display: none;
+  }
+  h1.head__text {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #fff;
+    font-family: "Yeseva One";
+    padding: 130px 20px 55px;
+    font-weight: 400;
+    font-size: 80px;
+  }
+}
+@media (max-width: 1040px) {
+  img.img__1 {
+    display: none;
+  }
+  .form__box {
+    padding-bottom: 20px;
+  }
+  h2.chef__text {
+    padding-top: 20px;
+  }
+  h3.comment {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 960px) {
+  ul.header__menu {
+    display: inline-block;
+    text-align: right;
+  }
+  div.menu {
+    position: relative;
+    background-image: url(/img/menu_fon.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+  }
+  div.colums {
+    display: block;
+  }
+  div.products {
+    top: 100px;
+    margin: 0 auto;
+    float: none;
+  }
+  h3.comment {
+    margin: 0 auto;
+  }
+  .guest {
+    background-image: url(/img/reviews-fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    max-height: 758px;
+  }
+  .reviews {
+    border-width: 0.06px;
+    border: none;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.671;
+    position: relative;
+    width: 80%;
+    height: 550px;
+    margin: 0 auto;
+    top: 100px;
+  }
+}
+
+@media (max-width: 787px) {
+  footer.info {
+    display: block;
+    text-align: center;
+  }
+  .about {
+    margin: 0 auto;
+  }
+  h1.head__text {
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    color: #fff;
+    font-family: "Yeseva One";
+    padding: 130px 20px 55px;
+    font-weight: 400;
+    font-size: 70px;
+  }
+  .guest {
+    background-image: url(/img/reviews-fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 80%;
+    height: 100vh;
+    max-height: 80%;
+  }
+  div.reviews {
+    border-width: 0.06px;
+    border: none;
+    border-style: solid;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.671;
+    position: relative;
+    width: 590px;
+    height: 100%;
+    margin: 0 auto;
+    top: 100px;
+  }
+  .reviews__text {
+    color: #ffffff;
+    font-family: "Yeseva One";
+    font-size: 36px;
+    line-height: auto;
+    padding-top: 70px;
+    padding-bottom: 24px;
+    font-weight: 400;
+  }
+  h3.reviews__comment {
+    display: block;
+    font-family: "Lato", sans-serif;
+    font-size: 25px;
+    color: #dde0df;
+    width: 570px;
+    line-height: 45px;
+    padding: 25px 20px;
+  }
+div.about,
+div.opening
+{
+padding-bottom: 20px;
+}
+.info img{
+    display: none;
+  }

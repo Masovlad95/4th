@@ -1,0 +1,411 @@
+* {
+  box-sizing: border-box;
+  outline: 0 !important;
+  margin: 0;
+  padding: 0;
+}
+a {
+  border-style: none;
+  outline: none;
+  text-decoration: none;
+  font-family: "GothamRounded", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 14px;
+  line-height: 25px;
+}
+input {
+  padding: 0;
+  margin: 0;
+}
+/* --------------------------------------------------- */
+.head {
+  background-image: url(../img/head__fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  max-height: 750px;
+}
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.bg_header {
+  background: linear-gradient(to bottom, #1d201d, transparent);
+  width: 100%;
+  height: 100px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+}
+.logo {
+  margin-left: 0px;
+  margin-right: 150px;
+}
+.header__menu {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 0px;
+  list-style-type: none;
+  position: relative;
+}
+li a {
+  font-size: 21px;
+  padding-top: 39px;
+  margin-left: 50px;
+  line-height: auto;
+  font-family: "Gentium Book Basic";
+  border-top: 3px solid transparent;
+}
+li :hover {
+  border-top: 3px solid #fff;
+  padding-top: 39px;
+}
+.socials {
+  margin-top: 34px;
+  margin-left: 20px;
+}
+/* --------------------------------------------------- */
+.head__text {
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 auto;
+  color: #fff;
+  font-family: "Yeseva One";
+  padding: 130px 90px 55px;
+  font-weight: 400;
+  font-size: 90px;
+}
+.black__btn,
+.white__btn {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #ffffff;
+  padding-top: 22px;
+  padding-bottom: 21px;
+  width: 230px;
+  margin-top: 35px;
+}
+.black__btn:hover,
+.white__btn:hover {
+  cursor: pointer;
+}
+.black__btn {
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  border-style: solid;
+  background-color: rgba(0, 0, 0, 0.702);
+  opacity: 0.8;
+  position: relative;
+  right: 15px;
+}
+.white__btn {
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 0.278);
+  opacity: 0.702;
+  position: relative;
+  left: 15px;
+}
+/* ----------------------------------------------------*/
+.chef__bg,
+.registration {
+  background-image: url(../img/chef__bg.png);
+  background-size: cover;
+  background-position: center;
+}
+.chef {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.chef__text {
+  color: #cc9900;
+  font-family: "Yeseva One";
+  font-size: 36px;
+  line-height: 24px;
+  padding-top: 110px;
+  padding-bottom: 24px;
+  font-weight: 400;
+}
+.comment {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #4c4c4c;
+  width: 480px;
+  line-height: 24px;
+  padding-top: 35px;
+  padding-bottom: 55px;
+}
+.dish {
+  margin-top: 120px;
+}
+/* -------------------------------------------------- */
+.ingredients {
+  background-image: url(../img/ingredients.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 758px;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+.products {
+  border-width: 0.06px;
+  border: none;
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.671;
+  position: relative;
+  width: 570px;
+  height: 557px;
+  right: 0;
+  float: right;
+  margin-top: 100px;
+}
+.products__text {
+  color: #ffffff;
+  font-family: "Yeseva One";
+  font-size: 36px;
+  line-height: auto;
+  padding-top: 90px;
+  padding-bottom: 24px;
+  font-weight: 400;
+}
+.products__comment {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  width: 480px;
+  margin: 0 auto;
+  line-height: 24px;
+  padding-top: 35px;
+  padding-bottom: 75px;
+}
+.products__pictures {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 90px;
+}
+/* -------------------------------------------------------- */
+.menu {
+  background-image: url(../img/menu_fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.colums {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.left__block,
+.right__block {
+  padding-top: 20px;
+}
+.categories {
+  padding-top: 80px;
+  padding-bottom: 15px;
+  color: #cc9900;
+}
+.paragraph {
+  margin-top: 30px;
+  min-width: 430px;
+  max-height: 70px;
+  border: 1px solid transparent;
+  transition: all 1s;
+}
+.paragraph:hover {
+  padding: 0px;
+  border-color: #cc9900;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e2dbbf;
+  color: #c89f2d;
+}
+.composition {
+  display: block;
+  padding-top: 8px;
+  text-align: left;
+  color: #4c4c4c;
+}
+/* ---------------------------------------------------------- */
+.guest {
+  background-image: url(../img/reviews-fon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  max-height: 758px;
+}
+.reviews {
+  border-width: 0.06px;
+  border: none;
+  border-style: solid;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.671;
+  position: relative;
+  width: 774px;
+  height: 550px;
+  margin: 0 auto;
+  top: 100px;
+}
+.reviews__text {
+  color: #ffffff;
+  font-family: "Yeseva One";
+  font-size: 36px;
+  line-height: auto;
+  padding-top: 70px;
+  padding-bottom: 24px;
+  font-weight: 400;
+}
+.reviews__comment {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  color: #dde0df;
+  width: 630px;
+  margin: 0 auto;
+  line-height: 45px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.reviews__comment__2 {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: #dde0df;
+  width: 630px;
+  margin: 0 auto;
+  line-height: 45px;
+}
+/* --------------------------------------- */
+.reg__container {
+  display: flex;
+  justify-content: space-between;
+}
+.images {
+  display: flex;
+  justify-content: space-between;
+  float: right;
+  right: 0;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.img__2 {
+  margin-left: 30px;
+}
+.form__reg {
+  display: flex;
+  justify-content: space-between;
+  max-height: 508px;
+  text-align: left;
+}
+.chef__text {
+  color: #cc9900;
+  font-family: "Yeseva One";
+  font-size: 36px;
+  line-height: 24px;
+  padding-top: 100px;
+  padding-bottom: 15px;
+  font-weight: 400;
+}
+.comment {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  color: #4c4c4c;
+  width: 480px;
+  line-height: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.form__left input,
+.form__right input {
+  font-size: 16px;
+  line-height: auto;
+  padding: 10px;
+  margin-bottom: 28px;
+  border: 1px solid transparent;
+  transition: all 1s;
+  font-family: "OpenSans", sans-serif;
+  max-width: 200px;
+  width: 100%;
+  font-style: italic;
+  font-weight: 400;
+}
+.form__left input:hover,
+.form__right input:hover {
+  padding: 10px;
+  border-color: #cc9900;
+}
+.form__left label,
+.form__right label {
+  color: #c9a131;
+  font-family: "OpenSans", sans-serif;
+  font-weight: 700;
+}
+.form__btn {
+  font-family: "OpenSans", sans-serif;
+  font-weight: 400;
+  padding: 12px 65px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: auto;
+  border-width: 1px;
+  border-color: rgb(200, 159, 45);
+  border-style: solid;
+  background-color: rgba(200, 159, 45, 0.98);
+  position: relative;
+}
+.form__btn:hover {
+  cursor: pointer;
+}
+/* ------------------------------------------------------------- */
+.footer {
+  color: #ffffff;
+  background-color: #191919;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 52px;
+  padding-bottom: 50px;
+}
+.about {
+  max-width: 370px;
+  width: 100%;
+}
+.info h3 {
+  font-family: "Yeseva One";
+  font-size: 21px;
+  line-height: 24px;
+  padding-bottom: 20px;
+  font-weight: 100;
+}
+.info p {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 20px;
+  font-weight: 100;
+}
+.info img {
+  padding-top: 55px;
+}
+.greek {
+  font-family: "Yeseva One", sans-serif;
+  font-style: bold;
+}
